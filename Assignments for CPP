@@ -1,0 +1,21 @@
+Cpp Assignments:
+1. Develop a Function to check if two numbers are equal without using arithmetic operators or comparison operators.
+2. Write a program to display the following output using a single cout statement.
+
+   Subject            Marks
+   Mathematics     	90 
+   Computer         77 
+   Chemistry        69 
+   
+ 3. Write a program to print all natural numbers upto N without using semi-colon.
+ 4. Write a program which accept principle, rate and time from user and print the simple interest.
+ 5.Write a program which accept temperature in Farenheit and print it in centigrade
+ 6. Write a program that takes an input of string and displays the reverse of the string. It should be a function that takes a char*  as arg and returns the char* with reversed value. 
+ 7.Write a program to check whether the given number is positive or negative (using ? : ternary operator )
+ 8.  Write a C++ program to find the sum and average of one dimensional integer array.
+ 9.  Write a menu driven C++ program with following option
+a. Accept elements of an array
+b. Display elements of an array 
+10. Develop a program to store employee objects into a file as CSV. It should be able to add, remove and update the values in the file. 
+11. Write a function to calculate the factorial value of any integer as an argument. Call this function from main( ) and print the results in main( ). 
+12.Write a function called zero_small() that has two integer arguments being passed by reference and sets the smaller of the two numbers to 0. Write the main program to access the function. 
