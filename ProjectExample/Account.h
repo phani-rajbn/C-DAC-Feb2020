@@ -9,11 +9,17 @@ class Account
 {
 	private:
 		int accNo;
-		long int phonoNo;
+		long int phoneNo;
 		string accName;
 		double accBalance;
 	public:
-		Account(int amount = 1000) {
+		Account(int amount = 1000){
+			
+		}
+		Account(int no, string name, long int phone, int amount = 1000) {
+			accNo = no;
+			accName = name;
+			phoneNo = phone;
 			accBalance = amount;
 		}
 		void setAccNo(int no){
@@ -34,13 +40,13 @@ class Account
 		{
 			return accName;
 		}
-		void SetphonoNo(long int x)
+		void SetphoneNo(long int x)
 		{
-			phonoNo = x;
+			phoneNo = x;
 		}
-		long int GetphonoNo()
+		long int GetphoneNo()
 		{
-			return phonoNo;
+			return phoneNo;
 		}
 		
 		void Credit(double amount){

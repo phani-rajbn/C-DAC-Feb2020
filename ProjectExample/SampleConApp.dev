@@ -51,16 +51,6 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit3]
-FileName=Account.h
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit5]
 FileName=AccountManager.cpp
 CompileCpp=1
 Folder=
@@ -70,7 +60,7 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit1]
+[Unit5]
 FileName=CommonFunctions.h
 CompileCpp=1
 Folder=
@@ -80,8 +70,8 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit2]
-FileName=ClassesRecap.cpp
+[Unit4]
+FileName=AccountManagerClient.cpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -90,8 +80,28 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit4]
+[Unit6]
+FileName=AccountManagerClient.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
 FileName=AccountManager.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit1]
+FileName=Account.h
 CompileCpp=1
 Folder=
 Compile=1

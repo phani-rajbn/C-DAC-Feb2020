@@ -12,6 +12,9 @@ class AccountManager
 {
 	private:
 		Account accounts[Count];
+		bool IsValidNo(int no){
+			return true;
+		}
 	public:
 		AccountManager();
 		void AddNewAccount(Account acc);
