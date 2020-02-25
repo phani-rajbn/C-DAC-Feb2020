@@ -1,0 +1,15 @@
+Create a class called Rectangle.It should contain a constructor for width and height, a function that returns the area and a friend fucntion that duplicate the rectangle's dimensions. In the main, creaate a rectangle instance, duplicate it and print out the area.
+
+Create a class called Patient that store the details of the patient from the user. 
+Create 2 functions one that creates a Patient object after taking inputs from the user and other that display the patient details taking as argument. 
+
+Create a program to create a  PatientInfo Database which has functions to add, remove, find and update the patient details. Develop a menu driven program to call the functions and do the operations. 
+
+For the above program, raise exceptions when the Patient is not found, or not able to add the patient. Handle the Exceptions in the Application.
+
+Create an abstract class called ContactManager which has the required functions to store contacts in a mobile phone. The contact manager should be able to perform all the operations that a typical phone could do except making calls. Develop the User interface to display all the contacts in alphabetical order. 
+
+Explain the code on how to use friend functions and Friend classes in a Cpp Application.
+ 
+
+ 
