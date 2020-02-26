@@ -1,0 +1,81 @@
+CPP Notes:
+What is C++?
+C++ is a General Purpose Programming language that is based on C to develop various kinds of Applications using simple and English based Commands that can be easily understood and developed. 
+A General Purpose programming language is one which allows to develop different kinds of Applications: Desktop based(Calculator, Data centric Applications), OS Based(Device components), System Based(Smart Devices) Applications. However, we cannot develop Web Centric Apps in C++. 
+It is based on C Language. Many of the syntax is similar to C. C++ is an extension of C with a very popular feature called OOPs.
+It is middle level language: it is not a low level machine kind of programming or a high level interpretor based language. It will hide both high level language features as well as low level language features. 
+
+How to develop a C++ Program?
+We write our programs using Text Editors and save the files with extension .cpp. We are supposed to compile this file(A program to convert the English language code into a language that is understood by the Computer) and would generate some instructions to the computer which will simply follow it(OBEY it). 
+Programs are instructions written in human compatible languages. U need a programming langauge  to write such programs. C++ is one such programming language and one of the popular programming languages in the Computing world.
+The language that Computer understands is MACHINE LANGUAGE. This language consists of set of instructions made of 0s and 1s. Anything that U want to instruct to the Computer will finally be presented as combinations of 0s and 1s to the computer.
+
+Execution process of a C++ Program:
+.CPP Files --->Compiler == .obj Files(Compilation Process)
+.obj Files---->Linker == .EXE File:(Building Process) This is what is the file that contains the instructions to the Computer. 
+
+Features of a CPP Program:
+Simple: As the program is broken down into small logical units and parts, the program looks simple and easy to maintain. 
+Machine independent code: Code that is developed is machine independent but not platform independent.(Compiled programs in Windows dont work in Linux). Any machine can compile and run the CPP Application. 
+Mid Level language: We can develop System level programming(Drivers, Kernels, Networking) and at the same time build High level User Applications like Media Players, Editors, PhotoShop, Game Software etc).
+Speed of Execution: C++ programs are tested to be executed faster compared to many other programming languages. Many OS are written in C and C++ is a superset of C, so execution within the OS is faster compared to other OOP couterpart languages. Newer languages like Java and C# are slower as they have extra features like Garbage collection, dynamic Typecasting which makes the programming easier but the execution slower. 
+Rich Library support: C++ has many inbuilt APIs as well as 3rd party libraries to develop the Applications in a faster and reliable manner. 
+
+Some interesting facts about C++:
+The name C++ is C with ++ which is an incremental operator in C. 
+C++ was till recently the most dominant programming language for developing all kinds of technical and commercial Software.
+C++ was the first programming language that made OOP popular.(Simula67 was the first OOP language).
+A function by name "main" is the minimal requirement for any C++ Program to run. 
+
+Environment Setup:
+U could install the C++ Editors and Compilers on various platforms. 
+Unix platforms:
+Use any text editors and use the GCC Compiler that is available with every unix machines. 
+sudo apt-get install GCC: Command to install the GCC Compiler on UR System.
+sudo apt-get install build-essential: Installs the libraries required to run C++ Programs. 
+g++ example.cpp -o exampleOutput
+./exampleOutput : to execute the program.
+------------------------------------------
+Windows platforms:
+Many IDEs are available for Windows to create and run C++ programs. 
+Prominent ones: Dev C++(Open source), Eclipse, Visual Studio to name a few. 
+Simply install the software and start using the IDE like any other Text editor with options to compile, build and execute. 
+-----------------------------------------------
+Mac OS X: 
+U should download XCode from the Apple Store. XCode App is the IDE for developing C++ as well as Objective C programs. 
+-------------------------------------------------------
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
